@@ -39,7 +39,7 @@ function finalizar() {
         alert('Adicione 2 ou mais valores antes de finalizar!')
     } else {
         resultado.innerHTML = `<p>Há ${lista.length} valores cadastrados.</p>`
-        lista.sort(function (a, b) { return a - b })
+        lista.sort(function (a, b) { return a - b }) //converter o metodo .sort() de ordem alfabética pra ordem numérica
         resultado.innerHTML += `<p>O menor valor é ${lista[0]}</p>`
         resultado.innerHTML += `<p>O maior valor é ${lista[lista.length - 1]}</p>`//o ultimo índice do array lista é o total de valores cadastrados -1 (pois array começa no índice 0)
         let soma = 0
