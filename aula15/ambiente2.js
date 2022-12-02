@@ -1,7 +1,7 @@
 let numeros = [2, 8, 5, 1, 9]
 numeros.push(7)
 console.log(numeros)
-numeros.sort()//Coloca os valores em ordem crescente
+//numeros.sort()//Coloca os valores em ordem crescente
 console.log('Depois do método .sort()')
 console.log(numeros)
 for (pos in numeros) {

@@ -29,6 +29,10 @@ div#formulario>select{
     width: 200px;
 }
 
+select>option{
+    font-size: 1.3em;
+}
+
 div#formulario>input{
     font-size: 0.8em;
 }
